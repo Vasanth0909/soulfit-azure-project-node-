@@ -50,7 +50,8 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('YOUR ORDER IS PLACED SUCCESSFULLY');
         } else {
             // Form validation failed
-            alert('Please fill in all fields before submitting.');
+            alert('Please fill in all fields correctly, before submitting.');
+            window.location.reload();
         }
 
     });

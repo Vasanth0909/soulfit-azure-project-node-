@@ -39,9 +39,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const submitBtn = document.getElementById('submit');
     submitBtn.addEventListener('click', function () {
         if (validate_form()) {
-            alert('YOUR REGISTRATION IS CONFIRMED , WE WILL CONTACT YOU SOON!');
-            window.location.href = "/"
-                
+            // Form validation passed
+            window.location.href = "/";
+            alert('YOUR REGISTRATION IS CONFIRMED, WE WILL CONTACT YOU SOON!');
+           
+        } else {
+            // Form validation failed
+            alert('Please fill in all fields correctly before submitting.');
+            window.location.reload();
         }
     });
 });
