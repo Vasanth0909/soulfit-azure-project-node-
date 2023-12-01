@@ -45,10 +45,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const submitBtn = document.getElementById('submit');
     submitBtn.addEventListener('click', function () {
         if (validateForm()) {
-
-            window.location.href = "/"
+            // Form validation passed
+            window.location.href = "/";
             alert('YOUR ORDER IS PLACED SUCCESSFULLY');
-                
+        } else {
+            // Form validation failed
+            alert('Please fill in all fields before submitting.');
         }
+
     });
 });
