@@ -47,7 +47,9 @@ app.post("/register", async (req, res) => {
    
 
     res.redirect("/");
-  } catch (error) {
+
+  } 
+  catch (error) {
     console.error(error);
     res.status(500).send("register failed. Please try again.");
   }
