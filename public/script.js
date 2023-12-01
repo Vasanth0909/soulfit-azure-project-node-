@@ -123,7 +123,7 @@ gsap.from("#page4 h1", {
   document.querySelector('#nav h4:nth-child(4)').addEventListener('click', () => scrollToSection('page2')); // Adjust the target section as needed
   document.querySelector('#nav h4:nth-child(5)').addEventListener('click', () => scrollToSection('page4'));
   document.querySelector('#nav h4:nth-child(6)').addEventListener('click', () => window.location.href = "bot");
-  document.querySelector('#nav h4:nth-child(7)').addEventListener('click', () => window.location.href = "https://www.instagram.com/soulfit03");
+  document.querySelector('#nav h4:nth-child(7)').addEventListener('click', () => alart("login to your instagram account") window.location.href = "https://www.instagram.com/soulfit03");
 
     
     
