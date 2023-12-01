@@ -70,6 +70,28 @@ app.get("/cheackout", (req, res) => {
 app.get("/bot", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "bot.html"));
 });
+
+
+app.get("/USER", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "user_register.html"));
+});
+ 
+app.post('/USER', (req, res) => {
+  const formData = req.body;
+
+  // Convert form data to a string
+  const dataString = JSON.stringify(formData, null, 2);
+
+  // Append the data to a text file
+  fs.appendFile('user_data.txt', dataString + '\n', (err) => {
+      if (err) throw err;
+      console.log('Data has been saved to user_data.txt');
+  });
+
+  res.send('Registration successful!');
+});
+
+
 app.listen(app.get('port'), function () {
   console.log("Node app is running at localhost:" + app.get('port'));
 });
