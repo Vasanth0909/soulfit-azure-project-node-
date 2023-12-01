@@ -16,11 +16,12 @@ SOULFIT is a dynamic online community dedicated to holistic well-being, bringing
 - Programs registration: Secure user registration.
 - Cash on Delivery: Provides a cash on delivery option for users.
 - Programs Information: Display information about programs.
+- AI Chatbot: User can have Q&A session with AI.
 
 ## Installation
 1. Clone the repository:
     bash
-    git clone 
+    git clone: https://github.com/Vasanth0909/soulfit-azure-project-node-
     
 2. Install dependencies:
     bash
@@ -40,7 +41,7 @@ SOULFIT is a dynamic online community dedicated to holistic well-being, bringing
     
 
 ## Usage
-1. Visit http://localhost:5000 in your web browser.
+1. Visit http://localhost:3002 in your web browser.
 2. Use the provided login and register features.
 3. Navigate to the registration page and sign up for a new account by providing your details.
 4. Explore a variety of meditation sessions, relaxation techniques, and mindfulness exercises available on the platform.
@@ -76,30 +77,24 @@ The project leverages the following Azure services:
 ## Contributing
 This project is a collaborative effort, and each team member has a specific role:
 
-1. Development and Deployment(Vasantha Kumar):
+1. *Development (Vasantha Kumar ):*
    - I am  responsible for coding and implementing new features.
-   - Ensure that the deployment is seamless and aligns with the project requirements.
    - To contribute, follow these steps:
       1. Fork the project.
       2. Create your feature branch: git checkout -b feature/your-feature.
       3. Commit your changes: git commit -m 'Add some feature'.
       4. Push to the branch: git push origin feature/your-feature.
       5. Submit a pull request.
-      6. Ensure that the deployment is seamless and aligns with the project requirements.
 
+2. *Deployment (Anthony Daniel Akash J):*
+   - The second team member is responsible for deploying the application on Azure services.
+   - Ensure that the deployment is seamless and aligns with the project requirements.
 
-2. Documentation (Anthony Daniel Akash J):
-   - The second team member is responsible for creating and updating the README file and demo screenshots.
+3. *Documentation and Demo (Rahul R):*
+   - The third team member is responsible for creating and updating the README file, including demo screenshots, video, and voiceover.
    - To contribute, follow these steps:
       1. Fork the project.
       2. Create your documentation branch: git checkout -b documentation/README.md.
       3. Commit your changes: git commit -m 'Update documentation'.
       4. Push to the branch: git push origin documentation/README.md.
       5. Submit a pull request.
-
-3. Demo (Rahul):
-   - The third team member is responsible for creating video and voiceover.
-   - To contribute, follow these steps:
-     1. Fork the project. 
-     2. Recording video when deploying project on Azure.
-     3. Give Voice over for the recorded Video.
