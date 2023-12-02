@@ -108,8 +108,8 @@ The project leverages the following Azure services:
 
 
 ## Demo Video
-[Watch Demo Video][([https://www.youtube.com/watch?v=your-video-id](https://youtu.be/BvCXtIbtu_Y?si=fyF7v2jmKxZj6add))
-](https://youtu.be/BvCXtIbtu_Y?si=fyF7v2jmKxZj6add)
+[Watch Demo Video](https://youtu.be/BvCXtIbtu_Y?si=fyF7v2jmKxZj6add)
+
 ## Project URL
 [Live Project](https://your-project-url.com)
 
