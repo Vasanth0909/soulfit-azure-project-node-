@@ -111,7 +111,7 @@ The project leverages the following Azure services:
 [Watch Demo Video](https://youtu.be/BvCXtIbtu_Y?si=fyF7v2jmKxZj6add)
 
 ## Project URL
-[Live Project](https://your-project-url.com)
+[Live Project](https://webappfitazure.azurewebsites.net/)
 
 ## Contributing
 This project is a collaborative effort, and each team member has a specific role:
